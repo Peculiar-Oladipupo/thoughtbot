@@ -3,12 +3,58 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body {
     background-color: #201313;
-    padding-left: 300px;
+}
+
+main {
+    background-color: #201313;
+    padding-left: 330px;
     padding-right: 190px;
 }
+
+
+nav{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    padding: 20px 30px;
+    img {
+        width: 200px;
+    }
+    ul{
+        
+        display: flex;
+        gap: 30px;
+        li {
+            list-style-type: none;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 20px;
+            font-weight: bold;
+            a {
+                color: #FAF9F9;
+                text-decoration: none;
+            }
+        }
+    }
+    button {
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: #E03131;
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+    }
+}
+
+
+
+
 .header {
     margin-top: 150px;
     text-align: left;
